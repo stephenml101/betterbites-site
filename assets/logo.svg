@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 200" role="img" aria-label="BetterBites Vending logo" fill="none">
+  <defs>
+    <linearGradient id="bbGreen" x1="0" y1="55" x2="55" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8CC63F"/>
+      <stop offset="0.55" stop-color="#43A736"/>
+      <stop offset="1" stop-color="#2E8B2C"/>
+    </linearGradient>
+    <linearGradient id="bbAmber" x1="110" y1="55" x2="185" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F6BC45"/>
+      <stop offset="1" stop-color="#E2891A"/>
+    </linearGradient>
+    <linearGradient id="bbLeafBig" x1="108" y1="50" x2="178" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E8B2C"/>
+      <stop offset="1" stop-color="#5FB935"/>
+    </linearGradient>
+    <linearGradient id="bbLeafSmall" x1="24" y1="44" x2="92" y2="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#56B23A"/>
+      <stop offset="1" stop-color="#9BD24A"/>
+    </linearGradient>
+
+    <!-- One bold, rounded B glyph, reused for both colors -->
+    <path id="bbB" fill-rule="evenodd" d="
+      M8,14 Q8,6 16,6 H56
+      C80,6 94,19 94,38 C94,52 84,61 70,65
+      C86,68 100,80 100,103 C100,125 83,134 58,134
+      H16 Q8,134 8,126 Z
+      M30,28 H53 C63,28 70,33 70,42 C70,51 63,56 53,56 H30 Z
+      M30,78 H57 C69,78 76,84 76,98 C76,112 69,118 57,118 H30 Z"/>
+  </defs>
+
+  <!-- Green B (left) -->
+  <use href="#bbB" transform="translate(6 56)" fill="url(#bbGreen)"/>
+  <!-- Amber B (right), set adjacent like the original -->
+  <use href="#bbB" transform="translate(98 56)" fill="url(#bbAmber)"/>
+
+  <!-- Big leaf sprouting up to the right -->
+  <path d="M104 58 C99 26 124 4 176 8 C171 46 142 64 104 58 Z" fill="url(#bbLeafBig)"/>
+  <path d="M118 50 C135 35 154 22 167 14" stroke="#EFFBE0" stroke-width="3.6" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Small leaf / sprout to the left -->
+  <path d="M100 54 C80 32 46 33 28 47 C46 65 82 66 100 54 Z" fill="url(#bbLeafSmall)"/>
+  <path d="M90 49 C72 41 52 42 36 48" stroke="#F4FCE9" stroke-width="2.8" stroke-linecap="round" opacity="0.45"/>
+</svg>

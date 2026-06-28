@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 575 490" role="img" aria-label="BetterBites mark" fill="none">
+  <defs>
+    <linearGradient id="gLeaf" x1="250" y1="200" x2="392" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2f8e2d"/>
+      <stop offset="1" stop-color="#62bd36"/>
+    </linearGradient>
+    <linearGradient id="gGreen" x1="120" y1="60" x2="345" y2="455" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7cc23a"/>
+      <stop offset="0.5" stop-color="#43a233"/>
+      <stop offset="1" stop-color="#2f8e2d"/>
+    </linearGradient>
+    <linearGradient id="gSprout" x1="115" y1="262" x2="250" y2="165" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5cb539"/>
+      <stop offset="1" stop-color="#9bd23f"/>
+    </linearGradient>
+    <linearGradient id="gAmber" x1="350" y1="162" x2="452" y2="444" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6bc45"/>
+      <stop offset="1" stop-color="#e2891a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- green main: top-left block + central body, one connected shape -->
+  <path d="M124 76 C124 66 132 62 142 62 H172 C206 62 252 96 284 120
+           C320 152 344 198 343 258 C342 334 330 404 296 450
+           C289 458 279 452 283 442 C312 396 318 330 313 258
+           C308 196 296 156 268 140 C238 124 196 132 168 132 H150
+           C136 132 124 120 124 100 Z" fill="url(#gGreen)"/>
+
+  <!-- light-green sprout leaf with highlight vein -->
+  <path d="M118 168 C152 156 188 168 204 190 C232 216 248 250 244 262
+           C240 272 224 270 208 258 C170 232 130 216 118 196 C112 185 110 172 118 168 Z" fill="url(#gSprout)"/>
+  <path d="M140 188 C175 180 208 186 232 204" stroke="#f0fbe0" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- stem -->
+  <rect x="116" y="294" width="20" height="148" rx="10" fill="url(#gGreen)"/>
+
+  <!-- top dark-green leaf with vein -->
+  <path d="M258 186 C244 110 304 52 394 48 C388 130 330 184 258 186 Z" fill="url(#gLeaf)"/>
+  <path d="M276 166 C316 116 354 84 386 58" stroke="#eafbd8" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- amber "3" bowls -->
+  <path d="M356 162 C414 156 448 188 448 232 C448 272 422 298 378 300
+           C424 302 452 330 452 384 C452 432 410 454 360 444
+           C348 441 348 428 360 428 C398 434 426 414 426 382
+           C426 348 398 324 356 324 V300 C396 300 426 280 426 244
+           C426 210 398 188 356 188 Z" fill="url(#gAmber)"/>
+</svg>
